@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" href="/static/stylesheets/welcome-template.css">
+
+			<!-- The Welcome struct is received within the HTML and we just need to use the . operator and retrieve the information we want -->
+			<title>Ontracon Demo App</title>
+	</head>
+<body>
+<div align=right><a href="http://ontracon.de/"><img src="http://ontracon.de/wp-content/uploads/2016/12/logo_breit.png" height=63 width=373 alt="ontracon" title="the transformation companions"></a></div>
+<hr>
+<div class="welcome center" align=center>Welcome to the Ontracon Demo App - {{.Name}} !<br><br>It is now {{.Time}}</div>
+<hr>
+<div align=right>(c) j.kritzen@ontracon.de</div>
+</body>
+</html>
